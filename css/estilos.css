@@ -1,9 +1,20 @@
 
 /*ancho de los fluidos*/
+#region-sidebar-first{
+  width: 20%;
+  float: left;
+}
+
+#region-content.grid-18{
+  float: left;
+  margin-left: 5%;
+  width: 75%;
+}
 .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11,
  .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .grid-17, .grid-18, .grid-19, .grid-20, .grid-21, .grid-22, .grid-23, .grid-24{
   margin: 0;
  }
+
  body{
   background: #fff;
  }
@@ -27,8 +38,11 @@
   overflow: hidden;
 }
 
-/*posiciones*/
+/*posiciones y margenes*/
 /*logo*/
+.zone-branding .region-branding{
+  margin: 10px;
+}
 .zone-branding .region-branding .logo-img{
   float: left;
 }
@@ -40,14 +54,20 @@
   padding-left: 0px;
 
 }
-
+/*todos los productos*/
+.view-collection-taxonomy-term .view-content .item-list .products-per-collection li.views-row ,.page-products .view-display-products li.views-row{
+  margin: 0% 2%;
+}
 
 /*estilos*/
 /* azul color: color:#004B91; */
 a.rojo{
   color:#990000;
 }
-
+/*background azul*/
+.block-shopping-cart-block .content .view-shopping-cart .line-item-summary ul.links,.block-search-api-sorts .content ul.search-api-sorts li a{
+  background: #004B91;
+}
 /*azul*/
 a, .breadcrumb a,.block-menu-user-menu .content ul.menu li a,.block-menu-user-menu .content ul.menu li a.active:hover, .block-menu-user-menu .content ul.menu li a:hover{
   color:#004B91;
